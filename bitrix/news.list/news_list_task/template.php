@@ -67,9 +67,12 @@ $this->setFrameMode(true);
             <div class="post big">
                <div class="row">
                   <div class="col-md-6 caption">
-                     <a href="<?= $arItem["DETAIL_PAGE_URL"] ?>"><span><?= $arItem["NAME"] ?>
+                     <a href="<?= $arItem["DETAIL_PAGE_URL"] ?>">
+                        <span>
+                           <?= $arItem["NAME"] ?>
                            <?= $arItem["DISPLAY_PROPERTIES"]["TAG"]["DISPLAY_VALUE"]; ?>
-                        </span></a>
+                        </span>
+                     </a>
                      <p class="post-description">
                         <?= $arItem["PROPERTIES"]["news_desc"]["VALUE"]["TEXT"] ?>
                      </p>
